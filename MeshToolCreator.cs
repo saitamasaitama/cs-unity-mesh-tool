@@ -4,12 +4,9 @@ using UnityEngine;
 
 namespace MeshTool
 {
-
-  public interface MeshableInterface
+  public class MeshToolCreator : MonoBehaviour
   {
-    Mesh ToMesh();
+
   }
-
-
 }
 
